@@ -1,4 +1,6 @@
-//SPDX-License-Identifier: Unlicense
+// SPDX-License-Identifier: MIT
+// a16z Contracts v0.0.1 (CantBeEvil.sol)
+
 pragma solidity ^0.8.0;
 
 import "hardhat/console.sol";
