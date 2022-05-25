@@ -31,6 +31,8 @@ async function uploadLicenses(key){
     let uploaded_images = {images: []}
 
     let LICENSES = ['CantBeEvilCR.txt', 'CantBeEvilCRHS.txt', 'CantBeEvilER.txt']
+    let LICENSE_NAMES = ['CR', 'CRHS', 'ER']
+
 
     for (let i = 0; i < LICENSES.length; i ++){
         // read file
@@ -43,16 +45,16 @@ async function uploadLicenses(key){
 
         // store txn id 
         txn_id = transaction.id
-        Manifest['paths'][(i+1).toString()] = { id: txn_id}
+        Manifest['paths'][LICENSE_NAMES[i]] = { id: txn_id}
         //uploaded_images.images.push({'txn_id':txn_id, 'edition': i})
 
         // post the txn to the arweave network
         const response = await arweave.transactions.post(transaction);
 
         if (response.status == 200){
-            console.log('Uploaded: ', i + 1)
+            console.log('Uploaded: ', LICENSE_NAMES[i])
         } else{
-            console.log(`UPLOAD error code ${response.status} for txn ${txn_id} for edition ${i}`);
+            console.log(`UPLOAD error code ${response.status} for txn ${txn_id} for edition ${LICENSE_NAMES[i]}`);
         }
 
     }

@@ -6,25 +6,46 @@ A repository for contracts written by a16z.
 
 The purpose of this repository is to provide an on-chain representation of the CantBeEvil license.
 
-The CantBeEvil license is made available as a library and contract.
+The CantBeEvil license is made available as a contract that can be inherited by any other contract.
+
+There are three variants of the CantBeEvil license:
+
+* [Creator Retention](https://arweave.net/d2k7qRxhHxtcKd6ZjFq1LJnubw4Qs1lSFlDJwwPLBg8/1) (“CR”) – Full non-exclusive commercial rights granted, with no hate speech revocation.
+
+* [Creator Retention with Hate Speech Revocation](https://arweave.net/d2k7qRxhHxtcKd6ZjFq1LJnubw4Qs1lSFlDJwwPLBg8/2) (“CR-HS”) – Full non-exclusive commercial rights granted, with hate speech revocation.
+
+* [Exclusive Rights with No Creator Retention](https://arweave.net/d2k7qRxhHxtcKd6ZjFq1LJnubw4Qs1lSFlDJwwPLBg8/3) (“ER”) – Full exclusive commercial rights granted, with no hate speech revocation.
 
 ### Usage
 
+The license versions are represented on-chain as an enum.
+
 ```solidity
-import "@a16z/licenses/CantBeEvil.sol";
+enum LicenseVersion {
+    CR,
+    CRHS,
+    ER
+}
+```
+
+Pass the desired version into the `CantBeEvil` constructor, as shown:
+
+```solidity
+import {LicenseVersion, CantBeEvil} from "@a16z/licenses/CantBeEvil.sol";
 
 contract MyContract is CantBeEvil(LicenseVersion.CR) {
     ...
 }
 ```
 
-You can now call `MyContract.getLicense()` to see the license used.
+You can now call `MyContract.getLicenseURI()`, which will return an Arweave gateway link to the license text file.
 
-### `licenses/CantBeEvil.sol`
-This contract is mean't to be inherited by NFT contracts and any contract that wishes to expose the `getLicense` method.
+```solidity
+MyContract.getLicenseURI() // => "https://arweave.net/d2k7..."
+```
 
-### `examples/MyToken.sol`
+### contracts/licenses/CantBeEvil.sol
+This contract is meant to be inherited by NFT contracts and any contract that wishes to expose the `getLicenseURI` method.
+
+### contracts/examples/MyToken.sol
 An example NFT contract that inherits `CantBeEvil`.
-
-### `pastVersions/CantBeEvilV1.sol`
-This library contains the actual license, stored as a string. It only needs to be deployed once, and all contracts that call it will not need to deploy the license again. This is test code, likely won't be our final architecture

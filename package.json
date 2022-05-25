@@ -1,5 +1,11 @@
 {
-  "name": "hardhat-project",
+  "name": "@a16z/licenses",
+  "description": "a16z Smart Contract library for Solidity",
+  "version": "0.0.1",
+  "files": [
+    "/contracts/licenses/*.sol",
+    "/artifacts/contracts/licenses/*.json"
+  ],
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.6",
     "@nomiclabs/hardhat-waffle": "^2.0.3",

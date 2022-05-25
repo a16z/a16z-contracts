@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.13;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
@@ -13,5 +13,5 @@ contract MyToken is ERC721, Ownable, CantBeEvil {
         _safeMint(to, tokenId);
     }
 
-    // this contract inherits getLicense() from the CantBeEvil contract
+    // this contract inherits getLicenseURI() from the CantBeEvil contract
 }

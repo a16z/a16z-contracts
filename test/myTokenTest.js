@@ -8,6 +8,6 @@ describe("Example NFT with the CantBeEvil license", function () {
     const myToken = await MyToken.deploy();
     await myToken.deployed();
 
-    expect(await myToken.getLicense()).to.equal("ar:CR//");
+    expect(await myToken.getLicenseURI()).to.equal("https://arweave.net/d2k7qRxhHxtcKd6ZjFq1LJnubw4Qs1lSFlDJwwPLBg8/1");
   });
 });
