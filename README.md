@@ -18,6 +18,7 @@ contract MyContract is CantBeEvil {
 }
 ```
 
+You can now call `MyContract.getLicense()` to see the license used.
 
 ### `licenses/CantBeEvil.sol`
 This contract is mean't to be inherited by NFT contracts and any contract that wishes to expose the `getLicense` method.
