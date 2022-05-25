@@ -8,6 +8,6 @@ describe("Example NFT with the CantBeEvil license", function () {
     const myToken = await MyToken.deploy();
     await myToken.deployed();
 
-    expect(await myToken.getLicense()).to.equal("This is the license");
+    expect(await myToken.getLicense()).to.equal("ar:CR//");
   });
 });

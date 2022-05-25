@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-// a16z Contracts v0.0.1 (CantBeEvilV1.sol)
+// a16z Contracts v0.0.1 (licenses/CantBeEvilV1.sol)
 
 pragma solidity ^0.8.0;
 
