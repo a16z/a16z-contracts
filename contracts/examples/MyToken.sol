@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "../licenses/CantBeEvil.sol";
 
 contract MyToken is ERC721, Ownable, CantBeEvil {
-    constructor() ERC721("MyToken", "MTK") {}
+    constructor() ERC721("MyToken", "MTK") CantBeEvil(LicenseVersion.CR) {}
 
     function safeMint(address to, uint256 tokenId) public onlyOwner {
         _safeMint(to, tokenId);

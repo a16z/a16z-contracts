@@ -4,10 +4,23 @@
 pragma solidity ^0.8.0;
 
 import "hardhat/console.sol";
-import "./CantBeEvilV1.sol";
+
+
+enum LicenseVersion {
+    CR,
+    CRHS,
+    ER
+}
 
 contract CantBeEvil {
-    function getLicense() public pure returns (string memory) {
-        return CantBeEvilV1.license;
+    
+    mapping(LicenseVersion => string) private licenses;
+    string public getLicense;
+
+    constructor(LicenseVersion _licenseVersion) {
+        licenses[LicenseVersion.CR] = "ar:CR//";
+        licenses[LicenseVersion.CRHS] = "ar:CRHS//";
+        licenses[LicenseVersion.ER] = "ar:ER//";
+        getLicense = licenses[_licenseVersion];
     }
 }
