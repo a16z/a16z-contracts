@@ -1,6 +1,6 @@
 # a16z Contracts
 
-A repository for contracts written by a16z
+A repository for contracts written by a16z.
 
 ## CantBeEvil License
 
