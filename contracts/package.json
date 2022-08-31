@@ -1,0 +1,32 @@
+{
+    "name": "@a16z/contracts",
+    "description": "a16z Smart Contract library for Solidity",
+    "version": "0.0.7",
+    "files": [
+        "**/*.sol"
+    ],
+    "dependencies": {
+        "@openzeppelin/contracts": "^4.7.2"
+    },
+    "scripts": {
+        "test": "hardhat test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/a16z/a16z-contracts.git"
+    },
+    "keywords": [
+        "solidity",
+        "ethereum",
+        "smart",
+        "contracts",
+        "a16z",
+        "NFT"
+    ],
+    "author": "a16z crypto",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/a16z/a16z-contracts/issues"
+    },
+    "homepage": "https://github.com/a16z/a16z-contracts#readme"
+}
