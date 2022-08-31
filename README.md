@@ -20,7 +20,7 @@ There are six variants of the CantBeEvil license:
 ## Installation 
 Install the Cant Be Evil License smart contracts in your hardhat project:
 ```
-npm i @a16z/licenses
+npm i @a16z/contracts
 ```
 
 ### Usage
