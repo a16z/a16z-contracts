@@ -7,3 +7,4 @@ package-lock.json
 #Hardhat files
 cache
 artifacts
+.DS_Store

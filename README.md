@@ -17,6 +17,9 @@ There are six variants of the CantBeEvil license:
 5.	[Personal License (“CBE-PR”)](https://arweave.net/_D9kN1WrNWbCq55BSAGRbTB4bS3v8QAPTYmBThSbX3A/4) – Personal rights granted, without hate speech termination.
 6.	[Personal License with Hate Speech Termination (“CBE-PR-HS”)](https://arweave.net/_D9kN1WrNWbCq55BSAGRbTB4bS3v8QAPTYmBThSbX3A/5) – Personal rights granted, with hate speech termination.
 
+The text of the Licenses is made freely available to the public under the terms of CC0 1.0 Universal.
+You can also find the full licenses and cover letter in this repo [here](/licenses/).
+
 ## Installation 
 Install the Cant Be Evil License smart contracts in your hardhat project:
 ```
