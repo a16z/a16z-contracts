@@ -17,27 +17,40 @@ enum LicenseVersion {
 
 contract CantBeEvil is ERC165, ICantBeEvil {
     using Strings for uint;
-    string internal constant _BASE_LICENSE_URI = "ar://_D9kN1WrNWbCq55BSAGRbTB4bS3v8QAPTYmBThSbX3A/";
+    string internal constant _BASE_LICENSE_URI =
+        "ar://_D9kN1WrNWbCq55BSAGRbTB4bS3v8QAPTYmBThSbX3A/";
     LicenseVersion public licenseVersion; // return string
+
     constructor(LicenseVersion _licenseVersion) {
         licenseVersion = _licenseVersion;
     }
 
-    function getLicenseURI() public view returns (string memory) {
-        return string.concat(_BASE_LICENSE_URI, uint(licenseVersion).toString());
+    function getLicenseURI() public view virtual returns (string memory) {
+        return
+            string.concat(_BASE_LICENSE_URI, uint(licenseVersion).toString());
     }
 
     function getLicenseName() public view returns (string memory) {
         return _getLicenseVersionKeyByValue(licenseVersion);
     }
 
-    function supportsInterface(bytes4 interfaceId) public view virtual override(ERC165) returns (bool) {
+    function supportsInterface(bytes4 interfaceId)
+        public
+        view
+        virtual
+        override(ERC165)
+        returns (bool)
+    {
         return
             interfaceId == type(ICantBeEvil).interfaceId ||
             super.supportsInterface(interfaceId);
     }
 
-    function _getLicenseVersionKeyByValue(LicenseVersion _licenseVersion) internal pure returns (string memory) {
+    function _getLicenseVersionKeyByValue(LicenseVersion _licenseVersion)
+        internal
+        pure
+        returns (string memory)
+    {
         require(uint8(_licenseVersion) <= 6);
         if (LicenseVersion.CBE_CC0 == _licenseVersion) return "CBE_CC0";
         if (LicenseVersion.CBE_ECR == _licenseVersion) return "CBE_ECR";
