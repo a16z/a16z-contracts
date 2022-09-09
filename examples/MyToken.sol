@@ -4,7 +4,7 @@ pragma solidity ^0.8.13;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-import {LicenseVersion, CantBeEvil} from "@a16z/contracts/licenses/CantBeEvil.sol";
+import {LicenseVersion, CantBeEvil} from "@a16z/contracts/licenses/contract/CantBeEvil.sol";
 
 contract MyToken is ERC721, Ownable, CantBeEvil {
 
