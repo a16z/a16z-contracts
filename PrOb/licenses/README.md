@@ -2,9 +2,11 @@ This is a restatement of the Licences from https://github.com/a16z/a16z-contract
 
 These are restated in ProseObject format.  They deduplicate very large portions of the text of the various licenses by using one license (ECR.md) as a base and expressing the other licenses as differences on the base.  
 
-This also parameterizes the Defined Terms so that they link to the definitions.
+The versions are rendered with a tiny bit of perl/PHP done by Primavera De Filippi.  They can be seen here <a href="http://www.commonaccord.org/index.php?action=list&file=G/a16z-contracts/PrOb/licenses/">http://www.commonaccord.org/index.php?action=list&file=G/a16z-contracts/PrOb/licenses/</a>
 
-It now also parameterizes the cross-references, as links to the target.  
+The Defined Terms are parameterized so that they link to the definitions. This is done with a library at /Sec/_.md.
+
+The cross-references in the text (e.g., Section 1.2) are also parameterized as links to the target. 
 
 There are a number of questions or anamolies in the various texts that are noted here. (Collected from the .md files so they are now all in one place.)  These could be re-expressed as GitHub "Issues".
 
