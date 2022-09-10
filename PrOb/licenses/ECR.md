@@ -8,7 +8,9 @@ Grant.Ti=NFT LICENSE GRANT
 
 Grant.1.Ti=NFT Media License
 
-Grant.1.1.sec=For as long as you lawfully own a {_Project_NFT}, {_Creator} grants you an exclusive, perpetual, irrevocable (except as set forth in Section {Misc.2.Xnum} below) worldwide license under our copyrights to use, distribute, reproduce, display, perform, modify, and create derivative works of the specific {_NFT_Media} linked to your {_Project_NFT} for personal and commercial uses, with the right to sublicense such rights through multiple tiers of sublicensees subject to the limitations in Section {Grant.4.Xnum}, and Articles {Disclaim.Xnum} and {Misc.Xnum} of these {_Terms} with {_Creator} being a third party beneficiary to all such sublicenses with the ability to enforce such agreements.
+Grant.1.1.sec=For as long as you lawfully own a {_Project_NFT}, {_Creator} grants you {an_exclusive/a_non-exclusive}, perpetual, irrevocable (except as set forth in Section {Misc.2.Xnum} below) worldwide license under our copyrights to use, distribute, reproduce, display, perform, modify, and create derivative works of the specific {_NFT_Media} linked to your {_Project_NFT} for personal and commercial uses, with the right to sublicense such rights through multiple tiers of sublicensees subject to the limitations in Section {Grant.4.Xnum}, and Articles {Disclaim.Xnum} and {Misc.Xnum} of these {_Terms} with {_Creator} being a third party beneficiary to all such sublicenses with the ability to enforce such agreements.
+
+an_exclusive/a_non-exclusive=an exclusive
 
 Grant.1.2.sec=This license includes the right to display as a profile picture, display on products or services using the {_NFT_Media} or NFT Media Derivatives (as defined below), display on sold merchandise, use in your original content, or to display in a physical or digital museum.
 
@@ -16,10 +18,32 @@ Grant.1.3.sec=All intellectual property rights in and to the {_NFT_Media} and an
 
 Grant.2.Ti=Modifications and Derivative Works
 
-Grant.2.1.sec=We understand that you may want to create derivative works of the {_NFT_Media} (“{_Your_NFT_Media_Derivatives.Target}”) and we allow you to do so under the scope of the license granted above. However, you acknowledge and agree that (a) the subsequent lawful owner of the {_Project_NFT} may create its own derivatives of the {_NFT_Media} and (b) other owners of their own {_Project_NFT}s and the associated artwork, images, video, content or other works of authorship linked to such {_Project_NFT} (“{_Other_Project_NFT_Media.Target}”) may also create their own derivatives of the {_Other_Project_NFT_Media} (each of them “{_Other_NFT_Media_Derivatives.Target}”).
+Grant.2.1.Intro.sec=We understand that you may want to create derivative works of the {_NFT_Media} (“{_Your_NFT_Media_Derivatives.Target}”) and we allow you to do so under the scope of the license granted above. However, you acknowledge and agree that 
+
+Grant.2.1.SubsequentOwnerDerivatives.sec=the subsequent lawful owner of the {_Project_NFT} may create its own derivatives of the {_NFT_Media}
+
+Grant.2.1.OtherOwnerDerivatives.sec=other owners of their own {_Project_NFT}s and the associated artwork, images, video, content or other works of authorship linked to such {_Project_NFT} (“{_Other_Project_NFT_Media.Target}”) may also create their own derivatives of the {_Other_Project_NFT_Media} (each of them “{_Other_NFT_Media_Derivatives.Target}”)
+
+Grant.2.1.sec={Grant.2.1.Intro.sec} (a) {Grant.2.1.SubsequentOwnerDerivatives.sec} and (b) {Grant.2.1.OtherOwnerDerivatives.sec}.
+
+Grant.2.2.1.Intro.sec=These {_Other_NFT_Media_Derivatives} may be similar or identical to {_Your_NFT_Media_Derivatives}. Accordingly, on behalf of yourself and your heirs, successors and assigns, you irrevocably covenant and agree not to assert or bring any suit, claim, demand or challenge against
+
+Grant.2.2.1.Creator.Intro.sec={_Creator} or its past, present and future parents, affiliates or licensees (or any of their partners, members, employees, officers, directors, contractors, agents and equityholders) in connection with their use, distribution, reproduction, display, perform, modification, and creation of 
+
+Grant.2.2.1.Creator.Derivatives.sec=derivative works of any {_NFT_Media}  prior to the grant of this license 
+
+Grant.2.2.1.Creator.OtherNFTMediaDerivatives.sec=any of their own {_Other_NFT_Media_Derivatives}
+
+Grant.2.2.1.Creator.sec={Grant.2.2.1.Creator.Intro.sec} {Grant.2.2.1.Creator.Derivatives.sec} or {Grant.2.2.1.Creator.OtherNFTMediaDerivatives.sec}
+
+Grant.2.2.1.OtherOwner.sec=any other {_Project_NFT} owner or its past, present and future parents, affiliates or licensees (or any of their partners, members, employees, officers, directors, contractors, agents and equityholders) in connection with the use, distribution, reproduction, display, perform, modification, and creation of derivative works of the {_Other_Project_NFT_Media} or any of their {_Other_NFT_Media_Derivatives}.
+
+Grant.2.2.1.sec={Grant.2.2.1.Intro.sec} (a) {Grant.2.2.1.Creator.sec} or (b) {Grant.2.2.1.OtherOwner.sec}. 
+
+Grant.2.2.2.sec=The foregoing is the case even if such Other {_NFT_Media} or {_Other_NFT_Media_Derivatives} is similar to or the same as any of {_Your_NFT_Media_Derivatives} that have been created by you.
 
 
-Grant.2.2.sec=These {_Other_NFT_Media_Derivatives} may be similar or identical to {_Your_NFT_Media_Derivatives}. Accordingly, on behalf of yourself and your heirs, successors and assigns, you irrevocably covenant and agree not to assert or bring any suit, claim, demand or challenge against (a) {_Creator} or its past, present and future parents, affiliates or licensees (or any of their partners, members, employees, officers, directors, contractors, agents and equityholders) in connection with their use, distribution, reproduction, display, perform, modification, and creation of derivative works of any {_NFT_Media} prior to the grant of this license or any of their own {_Other_NFT_Media_Derivatives} or (b) any other {_Project_NFT} owner or its past, present and future parents, affiliates or licensees (or any of their partners, members, employees, officers, directors, contractors, agents and equityholders) in connection with the use, distribution, reproduction, display, perform, modification, and creation of derivative works of the {_Other_Project_NFT_Media} or any of their {_Other_NFT_Media_Derivatives}. The foregoing is the case even if such Other {_NFT_Media} or {_Other_NFT_Media_Derivatives} is similar to or the same as any of {_Your_NFT_Media_Derivatives} that have been created by you.
+Grant.2.2.=[G/Z/para/s2]
 
 Grant.3.Ti=No Rights to Trademarks
 

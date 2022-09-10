@@ -2,9 +2,19 @@ Ti=“CAN’T BE EVIL” NFT LICENSE<br>NON-EXCLUSIVE COMMERCIAL RIGHTS & HATE S
 
 Note=Most of the document comes from ECR. These are overrides that make ECR into NECR-HS.
 
+Note=makes the license non-exclusive (Grant.1.sec)
+
+an_exclusive/a_non-exclusive=a non-exclusive
+
 Note=This adds a new (a) and renumbers (a) as (b), and (b) as (c).
 
-Grant.2.1.sec=We understand that you may want to create derivative works of the {_NFT_Media} (“{_Your_NFT_Media_Derivatives.Target}”) and we allow you to do so under the scope of the license granted above. However, you acknowledge and agree that (a) we may also create our own future derivatives of the {_NFT_Media}, (b) the subsequent lawful owner of the {_Project_NFT} may create its own derivatives of the {_NFT_Media} and (c) other owners of their own {_Project_NFT}s and the associated artwork, images, video, contentor other works of authorship linked to such {_Project_NFT} (“{_Other_Project_NFT_Media.Target}”) may also create their own derivatives of the {_Other_Project_NFT_Media} (each of them “{_Other_NFT_Media_Derivatives.Target}”).
+Grant.2.1.sec={Grant.2.1.Intro.sec} (a) {Grant.2.1.OriginalOwnerDerivatives.sec}, (b) {Grant.2.1.SubsequentOwnerDerivatives.sec} and (c) {Grant.2.1.OtherOwnerDerivatives.sec}.
+
+Grant.2.1.OriginalOwnerDerivatives.sec=we may also create our own future derivatives of the {_NFT_Media}
+
+Note=Deletes "prior to the grant of this license" as a limit on works.
+
+Grant.2.2.1.Creator.Derivatives.sec=derivative works of any {_NFT_Media}
 
 Grant.6.sec={Grant.Restriction.HateSpeech.sec} {Grant.6.1.sec} {Grant.6.2.sec}
 
