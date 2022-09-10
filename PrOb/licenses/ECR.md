@@ -1,6 +1,11 @@
 Ti=“CAN’T BE EVIL” NFT LICENSE<br>EXCLUSIVE COMMERCIAL RIGHTS WITH NO CREATOR RETENTION (“CBE-ECR”)
 
-CodersNotes=In Section 2.5, there is a superfluous "and" before item (ii).  In Section 2.3 "therefor" should be "therefore". In Section 3.3. "These Terms constitutes ...."  In Section 2.2, "Project NFT" where parallel phrases use "Project NFTs".  In Section 2.2. "SOME JURISDICTIONS)" (a stray close-quote).  In Section 2.3 "The value of the Project NFTs is subjective, have no inherent value ...." ("is" and "have"??) In Section 1.2.2, "Other NFT Media" is used but not defined. Should it be "Other Project NFT Media"?  In Sections 1.1, 1.2, 1.3, "NFT Media Derivatives" is used but not defined except as part of "Other NFT Media Derivatives" and "Your NFT Media Derivatives".
+Note=Parameterizing the seat of arbitration and the choice of law:
+
+ArbitrationSeat.cl=New York, New York, or if you request, the county (or parish) where You live
+
+Law.State.the=the State of New York
+
 
 Intro.sec=By acquiring lawful ownership to a non-fungible token (“{_NFT.Target}”) associated with the NFT project made available under this NFT License (“{_Project_NFT.Target}”) created by the owner or entity that has created this {_Project_NFT} (“{_Creator.Target}” or “we” or “our”), you agree to these NFT License Terms and Conditions (the “{_Terms.Target}”). When you lawfully own a {_Project_NFT}, you own all personal property rights to the NFT underlying the {_Project_NFT} (e.g., the right to freely sell, transfer, or otherwise dispose of that {_Project_NFT}). However, your rights to the associated artwork, images, video, content or other works of authorship linked to your specific {_Project_NFT} which was developed by {_Creator} (“{_NFT_Media.Target}”) are only as outlined below.
 
