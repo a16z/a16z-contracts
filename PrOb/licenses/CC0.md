@@ -8,39 +8,53 @@ Intro.sec=By acquiring lawful ownership to a non-fungible token (“{_NFT.Target
 
 Grant.Ti=APPLICATION OF CC0 
 
-Grant.1.Ti=Applying CC0 to {_NFT_Media}
+Grant.CC0License.Ti=Applying CC0 to {_NFT_Media}
 
-Grant.1.sec={_Creator} hereby makes all {_NFT_Media} linked to a {_Project_NFT} freely available for use by the public under the terms of the Creative Commons CC0 1.0 Universal, a copy of which is available here – <a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">https://creativecommons.org/publicdomain/zero/1.0/legalcode</a> (“{_CC0_Agreement.Target}”). 
+Grant.CC0License.sec={_Creator} hereby makes all {_NFT_Media} linked to a {_Project_NFT} freely available for use by the public under the terms of the Creative Commons CC0 1.0 Universal, a copy of which is available here – <a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">https://creativecommons.org/publicdomain/zero/1.0/legalcode</a> (“{_CC0_Agreement.Target}”). 
 
-Grant.2.Ti=Restrictions
+Grant.Restrict.Ti=Restrictions
 
-Grant.2.sec={ECR.Grant.6.2.sec}
+Grant.Restrict.sec={ECR.Grant.Restrict.2.sec}
 
-Grant.3.Ti=Template Provider Disclaimers
+Grant.TemplateProviderDisclaimer.Ti=Template Provider Disclaimers
 
-Grant.3.1.sec=these terms are based on a template that has been provided for public use as well as the {_CC0_Agreement} developed by Creative Commons which is subject to the terms at <a href="www.creativecommons.org/terms">www.creativecommons.org/terms</a>
+Grant.TemplateProviderDisclaimer.1.sec=these terms are based on a template that has been provided for public use as well as the {_CC0_Agreement} developed by Creative Commons which is subject to the terms at <a href="www.creativecommons.org/terms">www.creativecommons.org/terms</a>
 
-Grant.3.sec={ECR.Disclaim.5.0.sec} (i) {Grant.3.1.sec}, and (ii) {ECR.Disclaim.5.2.sec}, (iii) {ECR.Disclaim.5.3.sec}, and (iv) {ECR.Disclaim.5.4.sec}.
+Grant.TemplateProviderDisclaimer.sec={ECR.Risk.TemplateProviderDisclaimer.0.sec} (i) {Grant.TemplateProviderDisclaimer.1.sec}, and (ii) {ECR.Risk.TemplateProviderDisclaimer.2.sec}, (iii) {ECR.Risk.TemplateProviderDisclaimer.3.sec}, and (iv) {ECR.Risk.TemplateProviderDisclaimer.4.sec}.
 
-Misc.Ti=ADDITIONAL PROVISIONS 
+Other.Ti=ADDITIONAL PROVISIONS 
 
-Misc.1.Ti=Additional Features
+Other.AdditionalFeatures.Ti=Additional Features
 
-Misc.1.sec={ECR.Misc.1.sec}
+Other.AdditionalFeatures.sec={ECR.Other.AdditionalFeatures.sec}
 
-Misc.2.Ti=Miscellaneous
+Other.TerminateLicense.Ti=Miscellaneous
 
-Misc.2.sec=These {_Terms} and the Creative Commons CC0 1.0 Universal agreement constitutes the entire and exclusive understanding and agreement between the {_Creator} and you regarding the {_Project_NFT} and {_NFT_Media} and supersedes and replaces any and all prior oral or written understandings or agreements between {_Creator} and you regarding the {_Project_NFT} and {_NFT_Media}. If any provision of these {_Terms} shall be unlawful, void or for any reason unenforceable, then that provision shall be deemed severable from these {_Terms} and shall not affect the validity and enforceability of any remaining provisions. These {_Terms} may be freely assigned by {_Creator}. Any purported assignment in violation of these {_Terms} will be null and void. No waiver by either party of any breach or default hereunder shall be deemed to be a waiver of any preceding or subsequent breach or default. These {_Terms} and any action related thereto will be governed by the laws of the State of New York, without regard to its conflict of laws provisions. 
+Other.TerminateLicense.sec=These {_Terms} and the Creative Commons CC0 1.0 Universal agreement constitutes the entire and exclusive understanding and agreement between the {_Creator} and you regarding the {_Project_NFT} and {_NFT_Media} and supersedes and replaces any and all prior oral or written understandings or agreements between {_Creator} and you regarding the {_Project_NFT} and {_NFT_Media}. If any provision of these {_Terms} shall be unlawful, void or for any reason unenforceable, then that provision shall be deemed severable from these {_Terms} and shall not affect the validity and enforceability of any remaining provisions. These {_Terms} may be freely assigned by {_Creator}. Any purported assignment in violation of these {_Terms} will be null and void. No waiver by either party of any breach or default hereunder shall be deemed to be a waiver of any preceding or subsequent breach or default. These {_Terms} and any action related thereto will be governed by the laws of the State of New York, without regard to its conflict of laws provisions. 
 
-Grant.=[G/Z/ol/3]
+Grant.sec=<ol><li>{Grant.CC0License.Sec}</li><li>{Grant.Restrict.Sec}</li><li>{Grant.TemplateProviderDisclaimer.Sec}</li></ol>
 
-Misc.=[G/Z/ol/2]
+Grant.CC0License.=[G/Z/Base]
+
+Grant.Restrict.=[G/Z/Base]
+
+Grant.TemplateProviderDisclaimer.=[G/Z/Base]
+
+Grant.=[G/Z/Base]
+
+Other.sec=<ol><li>{Other.AdditionalFeatures.Sec}</li><li>{Other.TerminateLicense.Sec}</li></ol>
+
+Other.AdditionalFeatures.=[G/Z/Base]
+
+Other.TerminateLicense.=[G/Z/Base]
+
+Other.=[G/Z/Base]
 
 _=[G/a16z-contracts/PrOb/licenses/Sec/_.md]
 
 ECR.=[G/a16z-contracts/PrOb/licenses/ECR.md]
 
-sec={Intro.sec}<ol><li>{Grant.Sec}</li><li>{Misc.Sec}</li></ol>
+sec={Intro.sec}<ol><li>{Grant.Sec}</li><li>{Other.Sec}</li></ol>
 
 =[G/Z/ol/2]
 

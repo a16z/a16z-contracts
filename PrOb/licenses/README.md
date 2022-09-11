@@ -8,11 +8,11 @@ The Defined Terms are parameterized so that they link to the definitions. This i
 
 The cross-references in the text (e.g., Section 1.2) are also parameterized as links to the target. 
 
-There are a number of questions or anamolies in the various texts that are noted here. (Collected from the .md files so they are now all in one place.)  These could be re-expressed as GitHub "Issues".
+There are a number of questions or anomalies in the various texts that are noted here. (Collected from the .md files so they are now all in one place.)  These could be re-expressed as GitHub "Issues".
 
 Sec/Misc/LawAndForum/0.md:
 
-CodersNote=Made this large "Governing Law & Arbitration" Section into a separate object (file) which is referenced in the forms. Could have called it Sec/Misc/GoverningLawAndArbitration/ but expressed it a bit more generally.  Also did this for HateSpeech.  Eventually, would likely do it for all Sections, creating a library from which the forms are formed, and providing subject-specific targets for improvement, commentary, recomposition and the like.  For fun: you can drill down in a document and render parts of it <a href="http://www.commonaccord.org/index.php?action=doc&file=G/a16z-contracts/PrOb/licenses/ECR.md&key=Misc.LawAndForum.Sec">http://www.commonaccord.org/index.php?action=doc&file=G/a16z-contracts/PrOb/licenses/ECR.md&key=Misc.LawAndForum.Sec</a>
+CodersNote=Made this large "Governing Law & Arbitration" Section into a separate object (file) which is referenced in the forms. Could have called it Sec/Misc/GoverningLawAndArbitration/ but expressed it a bit more generally.  Also did this for HateSpeech.  Eventually, would likely do it for all Sections, creating a library from which the forms are formed, and providing subject-specific targets for improvement, commentary, recomposition and the like.  For fun: you can drill down in a document and render parts of it <a href="http://www.commonaccord.org/index.php?action=doc&file=G/a16z-contracts/PrOb/licenses/ECR.md&key=Other.LawAndForum.Sec">http://www.commonaccord.org/index.php?action=doc&file=G/a16z-contracts/PrOb/licenses/ECR.md&key=Other.LawAndForum.Sec</a>
 
 CodersNote=Parameterized the Arbitration Seat and the Choice of Law as {ArbitrationSeat.cl} and {Law.State.the} (!).  The parameters are fulfilled (dereferenced) in ECR.md with the original choices (NY or plaintiff county, and NY law).  These choices are defaults and can be overridden in instances.
 
