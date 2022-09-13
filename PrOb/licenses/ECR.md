@@ -8,6 +8,10 @@ Law.State.the=the State of New York
 
 PeriodForAmicableDisputeResolution.days=ninety (90) days
 
+Note=Parameterizing, deduplicating and assuring consistency of the phrase that describes affiliates of i) Creator and ii) Project NFT owner. (Just and example of reusing phrases.  Another, more lawyerly approach would be to define "Affiliates."  But this makes the word2vec point in another example.)
+
+Affiliates.cl=past, present and future parents, affiliates or licensees (or any of their partners, members, employees, officers, directors, contractors, agents and equityholders)
+
 Note=The text of ECR:
 
 Intro.sec=By acquiring lawful ownership to a non-fungible token (“{_NFT.Target}”) associated with the NFT project made available under this NFT License (“{_Project_NFT.Target}”) created by the owner or entity that has created this {_Project_NFT} (“{_Creator.Target}” or “we” or “our”), you agree to these NFT License Terms and Conditions (the “{_Terms.Target}”). When you lawfully own a {_Project_NFT}, you own all personal property rights to the NFT underlying the {_Project_NFT} (e.g., the right to freely sell, transfer, or otherwise dispose of that {_Project_NFT}). However, your rights to the associated artwork, images, video, content or other works of authorship linked to your specific {_Project_NFT} which was developed by {_Creator} (“{_NFT_Media.Target}”) are only as outlined below.
@@ -20,7 +24,7 @@ Grant.License.NFT.sec=For as long as you lawfully own a {_Project_NFT}, {_Creato
 
 an_exclusive/a_non-exclusive=an exclusive
 
-Grant.License.Display.sec=This license includes the right to display as a profile picture, display on products or services using the {_NFT_Media} or NFT Media Derivatives (as defined below), display on sold merchandise, use in your original content, or to display in a physical or digital museum.
+Grant.License.Display.sec=This license includes the right to display as a profile picture, display on products or services using the {_NFT_Media} or {_NFT_Media_Derivatives} (as defined below), display on sold merchandise, use in your original content, or to display in a physical or digital museum.
 
 Grant.License.Reservation.sec=All intellectual property rights in and to the {_NFT_Media} and any other intellectual property rights of {_Creator} not expressly licensed herein are reserved by {_Creator}.
 
@@ -40,7 +44,7 @@ Grant.Derivative.YourLimit.sec={Grant.Derivative.YourLimit.Intro.sec} (a) {Grant
 
 Grant.Derivative.TolerateOther.1.Intro.sec=These {_Other_NFT_Media_Derivatives} may be similar or identical to {_Your_NFT_Media_Derivatives}. Accordingly, on behalf of yourself and your heirs, successors and assigns, you irrevocably covenant and agree not to assert or bring any suit, claim, demand or challenge against
 
-Grant.Derivative.TolerateOther.1.Creator.Intro.sec={_Creator} or its past, present and future parents, affiliates or licensees (or any of their partners, members, employees, officers, directors, contractors, agents and equityholders) in connection with their use, distribution, reproduction, display, perform, modification, and creation of 
+Grant.Derivative.TolerateOther.1.Creator.Intro.sec={_Creator} or its {Affiliates.cl} in connection with their use, distribution, reproduction, display, perform, modification, and creation of 
 
 Grant.Derivative.TolerateOther.1.Creator.Derivatives.sec=derivative works of any {_NFT_Media}  prior to the grant of this license 
 
@@ -48,7 +52,7 @@ Grant.Derivative.TolerateOther.1.Creator.OtherNFTMediaDerivatives.sec=any of the
 
 Grant.Derivative.TolerateOther.1.Creator.sec={Grant.Derivative.TolerateOther.1.Creator.Intro.sec} {Grant.Derivative.TolerateOther.1.Creator.Derivatives.sec} or {Grant.Derivative.TolerateOther.1.Creator.OtherNFTMediaDerivatives.sec}
 
-Grant.Derivative.TolerateOther.1.OtherOwner.sec=any other {_Project_NFT} owner or its past, present and future parents, affiliates or licensees (or any of their partners, members, employees, officers, directors, contractors, agents and equityholders) in connection with the use, distribution, reproduction, display, perform, modification, and creation of derivative works of the {_Other_Project_NFT_Media} or any of their {_Other_NFT_Media_Derivatives}.
+Grant.Derivative.TolerateOther.1.OtherOwner.sec=any other {_Project_NFT} owner or its {Affiliates.cl} in connection with the use, distribution, reproduction, display, perform, modification, and creation of derivative works of the {_Other_Project_NFT_Media} or any of their {_Other_NFT_Media_Derivatives}.
 
 Grant.Derivative.TolerateOther.1.sec={Grant.Derivative.TolerateOther.1.Intro.sec} (a) {Grant.Derivative.TolerateOther.1.Creator.sec} or (b) {Grant.Derivative.TolerateOther.1.OtherOwner.sec}. 
 
