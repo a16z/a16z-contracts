@@ -1,8 +1,8 @@
 Ti=“CAN’T BE EVIL” NFT LICENSE<br>PERSONAL LICENSE (“CBE-PR”)
 
-Grant.License.1.sec=For as long as you lawfully own a {_Project_NFT}, {_Creator} grants you a non-exclusive, perpetual, irrevocable (except as set forth in Section {Other.TerminateLicense.Xnum} below) worldwide license under our copyrights to use,distribute, reproduce, display, and perform (but not modify) the specific {_NFT_Media} linked to your {_Project_NFT} for personal non-commercial uses, with the right to sublicense such rights solely to third parties to enable the right to display the {_NFT_Media}, with {_Creator} being a third party beneficiary to all such sublicenses with the ability to enforce such agreements.
+Grant.License.NFT.sec=For as long as you lawfully own a {_Project_NFT}, {_Creator} grants you a non-exclusive, perpetual, irrevocable (except as set forth in Section {Other.TerminateLicense.Xnum} below) worldwide license under our copyrights to use,distribute, reproduce, display, and perform (but not modify) the specific {_NFT_Media} linked to your {_Project_NFT} for personal non-commercial uses, with the right to sublicense such rights solely to third parties to enable the right to display the {_NFT_Media}, with {_Creator} being a third party beneficiary to all such sublicenses with the ability to enforce such agreements.
 
-Grant.License.2.sec=This license includes the right to display {_NFT_Media} as a profile picture.
+Grant.License.Display.sec=This license includes the right to display {_NFT_Media} as a profile picture.
 
 Grant.Derivative.Sec=Reserved
 

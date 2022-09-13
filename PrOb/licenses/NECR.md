@@ -8,14 +8,14 @@ an_exclusive/a_non-exclusive=a non-exclusive
 
 Note=This adds a new (a) and renumbers (a) as (b), and (b) as (c):
 
-Grant.Derivative.1.sec={Grant.Derivative.1.Intro.sec} (a) {Grant.Derivative.1.OriginalOwnerDerivatives.sec}, (b) {Grant.Derivative.1.SubsequentOwnerDerivatives.sec} and (c) {Grant.Derivative.1.OtherOwnerDerivatives.sec}.
+Grant.Derivative.YourLimit.sec={Grant.Derivative.YourLimit.Intro.sec} (a) {Grant.Derivative.YourLimit.OriginalOwnerDerivatives.sec}, (b) {Grant.Derivative.YourLimit.SubsequentOwnerDerivatives.sec} and (c) {Grant.Derivative.YourLimit.OtherOwnerDerivatives.sec}.
 
-Grant.Derivative.1.OriginalOwnerDerivatives.sec=we may also create our own future derivatives of the {_NFT_Media}
+Grant.Derivative.YourLimit.OriginalOwnerDerivatives.sec=we may also create our own future derivatives of the {_NFT_Media}
 
 Note=Omits the trailiing words "prior to the grant of this license", as a limit on works:
 
-Grant.Derivative.2.1.Creator.Derivatives.sec=derivative works of any {_NFT_Media}
+Grant.Derivative.TolerateOther.1.Creator.Derivatives.sec=derivative works of any {_NFT_Media}
 
-Grant.Restrict.sec={Grant.Restrict.1.sec} {Grant.Restrict.2.sec}
+Grant.Restrict.sec={Grant.Restrict.FractionalInterest.sec} {Grant.Restrict.PurchaserQualification.sec}
 
 =[G/a16z-contracts/PrOb/licenses/ECR.md]

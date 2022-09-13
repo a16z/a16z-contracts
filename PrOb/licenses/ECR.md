@@ -6,6 +6,9 @@ ArbitrationSeat.cl=New York, New York, or if you request, the county (or parish)
 
 Law.State.the=the State of New York
 
+PeriodForAmicableDisputeResolution.days=ninety (90) days
+
+Note=The text of ECR:
 
 Intro.sec=By acquiring lawful ownership to a non-fungible token (“{_NFT.Target}”) associated with the NFT project made available under this NFT License (“{_Project_NFT.Target}”) created by the owner or entity that has created this {_Project_NFT} (“{_Creator.Target}” or “we” or “our”), you agree to these NFT License Terms and Conditions (the “{_Terms.Target}”). When you lawfully own a {_Project_NFT}, you own all personal property rights to the NFT underlying the {_Project_NFT} (e.g., the right to freely sell, transfer, or otherwise dispose of that {_Project_NFT}). However, your rights to the associated artwork, images, video, content or other works of authorship linked to your specific {_Project_NFT} which was developed by {_Creator} (“{_NFT_Media.Target}”) are only as outlined below.
 
@@ -13,66 +16,89 @@ Grant.Ti=NFT LICENSE GRANT
 
 Grant.License.Ti=NFT Media License
 
-Grant.License.1.sec=For as long as you lawfully own a {_Project_NFT}, {_Creator} grants you {an_exclusive/a_non-exclusive}, perpetual, irrevocable (except as set forth in Section {Other.TerminateLicense.Xnum} below) worldwide license under our copyrights to use, distribute, reproduce, display, perform, modify, and create derivative works of the specific {_NFT_Media} linked to your {_Project_NFT} for personal and commercial uses, with the right to sublicense such rights through multiple tiers of sublicensees subject to the limitations in Section {Grant.Transfer.Xnum}, and Articles {Risk.Xnum} and {Other.Xnum} of these {_Terms} with {_Creator} being a third party beneficiary to all such sublicenses with the ability to enforce such agreements.
+Grant.License.NFT.sec=For as long as you lawfully own a {_Project_NFT}, {_Creator} grants you {an_exclusive/a_non-exclusive}, perpetual, irrevocable (except as set forth in Section {Other.TerminateLicense.Xnum} below) worldwide license under our copyrights to use, distribute, reproduce, display, perform, modify, and create derivative works of the specific {_NFT_Media} linked to your {_Project_NFT} for personal and commercial uses, with the right to sublicense such rights through multiple tiers of sublicensees subject to the limitations in Section {Grant.Transfer.Xnum}, and Articles {Risk.Xnum} and {Other.Xnum} of these {_Terms} with {_Creator} being a third party beneficiary to all such sublicenses with the ability to enforce such agreements.
 
 an_exclusive/a_non-exclusive=an exclusive
 
-Grant.License.2.sec=This license includes the right to display as a profile picture, display on products or services using the {_NFT_Media} or NFT Media Derivatives (as defined below), display on sold merchandise, use in your original content, or to display in a physical or digital museum.
+Grant.License.Display.sec=This license includes the right to display as a profile picture, display on products or services using the {_NFT_Media} or NFT Media Derivatives (as defined below), display on sold merchandise, use in your original content, or to display in a physical or digital museum.
 
-Grant.License.3.sec=All intellectual property rights in and to the {_NFT_Media} and any other intellectual property rights of {_Creator} not expressly licensed herein are reserved by {_Creator}.
+Grant.License.Reservation.sec=All intellectual property rights in and to the {_NFT_Media} and any other intellectual property rights of {_Creator} not expressly licensed herein are reserved by {_Creator}.
+
+Grant.License.=[G/Z/Base]
+
+Grant.License.sec={Grant.License.NFT.sec} {Grant.License.Display.sec} {Grant.License.Reservation.sec}
 
 Grant.Derivative.Ti=Modifications and Derivative Works
 
-Grant.Derivative.1.Intro.sec=We understand that you may want to create derivative works of the {_NFT_Media} (“{_Your_NFT_Media_Derivatives.Target}”) and we allow you to do so under the scope of the license granted above. However, you acknowledge and agree that 
+Grant.Derivative.YourLimit.Intro.sec=We understand that you may want to create derivative works of the {_NFT_Media} (“{_Your_NFT_Media_Derivatives.Target}”) and we allow you to do so under the scope of the license granted above. However, you acknowledge and agree that 
 
-Grant.Derivative.1.SubsequentOwnerDerivatives.sec=the subsequent lawful owner of the {_Project_NFT} may create its own derivatives of the {_NFT_Media}
+Grant.Derivative.YourLimit.SubsequentOwnerDerivatives.sec=the subsequent lawful owner of the {_Project_NFT} may create its own derivatives of the {_NFT_Media}
 
-Grant.Derivative.1.OtherOwnerDerivatives.sec=other owners of their own {_Project_NFT}s and the associated artwork, images, video, content or other works of authorship linked to such {_Project_NFT} (“{_Other_Project_NFT_Media.Target}”) may also create their own derivatives of the {_Other_Project_NFT_Media} (each of them “{_Other_NFT_Media_Derivatives.Target}”)
+Grant.Derivative.YourLimit.OtherOwnerDerivatives.sec=other owners of their own {_Project_NFT}s and the associated artwork, images, video, content or other works of authorship linked to such {_Project_NFT} (“{_Other_Project_NFT_Media.Target}”) may also create their own derivatives of the {_Other_Project_NFT_Media} (each of them “{_Other_NFT_Media_Derivatives.Target}”)
 
-Grant.Derivative.1.sec={Grant.Derivative.1.Intro.sec} (a) {Grant.Derivative.1.SubsequentOwnerDerivatives.sec} and (b) {Grant.Derivative.1.OtherOwnerDerivatives.sec}.
+Grant.Derivative.YourLimit.sec={Grant.Derivative.YourLimit.Intro.sec} (a) {Grant.Derivative.YourLimit.SubsequentOwnerDerivatives.sec} and (b) {Grant.Derivative.YourLimit.OtherOwnerDerivatives.sec}.
 
-Grant.Derivative.2.1.Intro.sec=These {_Other_NFT_Media_Derivatives} may be similar or identical to {_Your_NFT_Media_Derivatives}. Accordingly, on behalf of yourself and your heirs, successors and assigns, you irrevocably covenant and agree not to assert or bring any suit, claim, demand or challenge against
+Grant.Derivative.TolerateOther.1.Intro.sec=These {_Other_NFT_Media_Derivatives} may be similar or identical to {_Your_NFT_Media_Derivatives}. Accordingly, on behalf of yourself and your heirs, successors and assigns, you irrevocably covenant and agree not to assert or bring any suit, claim, demand or challenge against
 
-Grant.Derivative.2.1.Creator.Intro.sec={_Creator} or its past, present and future parents, affiliates or licensees (or any of their partners, members, employees, officers, directors, contractors, agents and equityholders) in connection with their use, distribution, reproduction, display, perform, modification, and creation of 
+Grant.Derivative.TolerateOther.1.Creator.Intro.sec={_Creator} or its past, present and future parents, affiliates or licensees (or any of their partners, members, employees, officers, directors, contractors, agents and equityholders) in connection with their use, distribution, reproduction, display, perform, modification, and creation of 
 
-Grant.Derivative.2.1.Creator.Derivatives.sec=derivative works of any {_NFT_Media}  prior to the grant of this license 
+Grant.Derivative.TolerateOther.1.Creator.Derivatives.sec=derivative works of any {_NFT_Media}  prior to the grant of this license 
 
-Grant.Derivative.2.1.Creator.OtherNFTMediaDerivatives.sec=any of their own {_Other_NFT_Media_Derivatives}
+Grant.Derivative.TolerateOther.1.Creator.OtherNFTMediaDerivatives.sec=any of their own {_Other_NFT_Media_Derivatives}
 
-Grant.Derivative.2.1.Creator.sec={Grant.Derivative.2.1.Creator.Intro.sec} {Grant.Derivative.2.1.Creator.Derivatives.sec} or {Grant.Derivative.2.1.Creator.OtherNFTMediaDerivatives.sec}
+Grant.Derivative.TolerateOther.1.Creator.sec={Grant.Derivative.TolerateOther.1.Creator.Intro.sec} {Grant.Derivative.TolerateOther.1.Creator.Derivatives.sec} or {Grant.Derivative.TolerateOther.1.Creator.OtherNFTMediaDerivatives.sec}
 
-Grant.Derivative.2.1.OtherOwner.sec=any other {_Project_NFT} owner or its past, present and future parents, affiliates or licensees (or any of their partners, members, employees, officers, directors, contractors, agents and equityholders) in connection with the use, distribution, reproduction, display, perform, modification, and creation of derivative works of the {_Other_Project_NFT_Media} or any of their {_Other_NFT_Media_Derivatives}.
+Grant.Derivative.TolerateOther.1.OtherOwner.sec=any other {_Project_NFT} owner or its past, present and future parents, affiliates or licensees (or any of their partners, members, employees, officers, directors, contractors, agents and equityholders) in connection with the use, distribution, reproduction, display, perform, modification, and creation of derivative works of the {_Other_Project_NFT_Media} or any of their {_Other_NFT_Media_Derivatives}.
 
-Grant.Derivative.2.1.sec={Grant.Derivative.2.1.Intro.sec} (a) {Grant.Derivative.2.1.Creator.sec} or (b) {Grant.Derivative.2.1.OtherOwner.sec}. 
+Grant.Derivative.TolerateOther.1.sec={Grant.Derivative.TolerateOther.1.Intro.sec} (a) {Grant.Derivative.TolerateOther.1.Creator.sec} or (b) {Grant.Derivative.TolerateOther.1.OtherOwner.sec}. 
 
-Grant.Derivative.2.2.sec=The foregoing is the case even if such Other {_NFT_Media} or {_Other_NFT_Media_Derivatives} is similar to or the same as any of {_Your_NFT_Media_Derivatives} that have been created by you.
+Grant.Derivative.TolerateOther.2.sec=The foregoing is the case even if such Other {_NFT_Media} or {_Other_NFT_Media_Derivatives} is similar to or the same as any of {_Your_NFT_Media_Derivatives} that have been created by you.
 
+Grant.Derivative.TolerateOther.=[G/Z/para/s2]
 
-Grant.Derivative.2.=[G/Z/para/s2]
+Grant.Derivative.sec={Grant.Derivative.YourLimit.sec}<br>{Grant.Derivative.TolerateOther.sec}
+
+Grant.Derivative.=[G/Z/Base]
 
 Grant.Trademark.Ti=No Rights to Trademarks
 
 Grant.Trademark.sec=Nothing in these {_Terms} is meant to grant you any rights to any logos, trademarks, service marks, and trade dress associated with {_Creator} or the {_Project_NFT}s (“{_Project_Trademarks.Target}”). Unless you have our prior written approval, you may not use any {_Project_Trademarks} for any use that would require a license from us, including to register any domain names or social media accounts using any {_Project_Trademarks}, in any {_NFT_Media_Derivatives}, or to advertise or promote any other products or services.
 
+Grant.Trademark.=[G/Z/Base]
+
 Grant.Transfer.Ti=Transfer and Sublicensing
 
-Grant.Transfer.1.sec=The licenses granted in these {_Terms} are non-transferrable, except that if you lawfully transfer ownership of your {_Project_NFT}, the license to the {_NFT_Media} in Section {Grant.License.Xnum} to you shall terminate upon the effective date of such transfer, and such licenses will be assigned to the new owner of the {_Project_NFT} associated with such {_NFT_Media}. As a condition to sales, transfers or similar transactions of the {_Project_NFT}s, the transferee agrees upon the acquisition of the {_Project_NFT} that (a) the transferee is not a {_Restricted_Party} and (b) the transferee accepts these {_Terms}.
+Grant.Transfer.LicenseFollowsNFT.sec=The licenses granted in these {_Terms} are non-transferrable, except that if you lawfully transfer ownership of your {_Project_NFT}, the license to the {_NFT_Media} in Section {Grant.License.Xnum} to you shall terminate upon the effective date of such transfer, and such licenses will be assigned to the new owner of the {_Project_NFT} associated with such {_NFT_Media}. As a condition to sales, transfers or similar transactions of the {_Project_NFT}s, the transferee agrees upon the acquisition of the {_Project_NFT} that (a) the transferee is not a {_Restricted_Party} and (b) the transferee accepts these {_Terms}.
 
-Grant.Transfer.2.sec=Further, if you choose to sublicense any of your licensed rights set forth in Section {Grant.License.Xnum} above, you are only permitted to do so if any such sublicensees agree (i) that they are not {_Restricted_Parties}, (ii) to the same covenant not to assert as set forth in the second to last sentence of Section {Grant.Derivative.Xnum}, and (iii) that if your licensed rights in Section {Grant.License.Xnum} are transferred (such as because you sell your {_Project_NFT}), then any such sublicenses you have granted in such licensed rights will automatically terminate.
+Grant.Transfer.SublicenseeQualification.sec=Further, if you choose to sublicense any of your licensed rights set forth in Section {Grant.License.Xnum} above, you are only permitted to do so if any such sublicensees agree (i) that they are not {_Restricted_Parties}, (ii) to the same covenant not to assert as set forth in the second to last sentence of Section {Grant.Derivative.Xnum}, and (iii) that if your licensed rights in Section {Grant.License.Xnum} are transferred (such as because you sell your {_Project_NFT}), then any such sublicenses you have granted in such licensed rights will automatically terminate.
 
-Grant.Transfer.3.sec=Because virtually all public blockchains are licensed under open source licenses, it is possible that the blockchain may fork, merge, or duplicate the original blockchain that initially recorded ownership of your {_Project_NFT}.
+Grant.Transfer.BlockchainFork.sec=Because virtually all public blockchains are licensed under open source licenses, it is possible that the blockchain may fork, merge, or duplicate the original blockchain that initially recorded ownership of your {_Project_NFT}.
 
-Grant.Transfer.4.sec=In such case, any rights granted under these {_Terms} to owners of any {_Project_NFT} will only be granted to the lawful owners of such {_Project_NFT} whose ownership is recorded on the mainnet version of the blockchain that is generally recognized and predominantly supported in the blockchain industry as the legitimate successor of the original blockchain (as determined in our sole discretion).
+Grant.Transfer.BlockchainRecording.sec=In such case, any rights granted under these {_Terms} to owners of any {_Project_NFT} will only be granted to the lawful owners of such {_Project_NFT} whose ownership is recorded on the mainnet version of the blockchain that is generally recognized and predominantly supported in the blockchain industry as the legitimate successor of the original blockchain (as determined in our sole discretion).
+
+Grant.Transfer.sec={Grant.Transfer.LicenseFollowsNFT.sec} {Grant.Transfer.SublicenseeQualification.sec} {Grant.Transfer.BlockchainFork.sec} {Grant.Transfer.BlockchainRecording.sec}
+
+Grant.Transfer.=[G/Z/para/s4]
 
 Grant.3PartyContent.Ti={_Third_Party_Content}
 
 Grant.3PartyContent.sec=The {_Creator} hereby represents and warrants to you that all of the copyrights in the {_NFT_Media} are owned by the {_Creator}, and does not contain (a) any artwork, images, video, content or other works of authorship, (b) logos, trademarks, service marks, or trade dress or rights of personality in which the relevant intellectual property rights are not owned by the {_Creator} (“{_Third_Party_Content.Target}”), provided that the foregoing shall not apply if the {_Creator} has obtained a license to such {_Third_Party_Content} consistent with the licenses under this Agreement or the {_Creator} has supplemented this NFT License with an additional license that governs your right to use such {_Third_Party_Content}.
 
+Grant.3PartyContent.=[G/Z/Base]
+
 Grant.Restrict.Ti=Restrictions
 
-Grant.Restrict.1.sec=If a {_Project_NFT} is fractionalized into smaller ownership interests (which may be represented by other tokens), the rights licensed hereunder do not transfer to each of the owners of such fractionalized interests in the {_Project_NFT}, but are only granted to those who own all fractionalized interests in a {_Project_NFT} or as may otherwise be agreed by the owners of such fractionalized interests if each of such owners agree that (a) the owner is not a {_Restricted_Party} and (b) the owner accepts these {_Terms}.
+Grant.Restrict.FractionalInterest.sec=If a {_Project_NFT} is fractionalized into smaller ownership interests (which may be represented by other tokens), the rights licensed hereunder do not transfer to each of the owners of such fractionalized interests in the {_Project_NFT}, but are only granted to those who own all fractionalized interests in a {_Project_NFT} or as may otherwise be agreed by the owners of such fractionalized interests if each of such owners agree that (a) the owner is not a {_Restricted_Party} and (b) the owner accepts these {_Terms}.
 
-Grant.Restrict.2.sec=In order to purchase the {_Project_NFT} if you are an individual, you must be 18 years of age or older if the age of lawfully capacity of forming binding contracts is older in the relevant jurisdiction. If you are an entity, the individual agreeing to the {_Terms} must have the legal authority to bind the entity. If (a) you are an individual, you agree on your own behalf and (b) if you are an entity, you agree that neither the entity nor any of your owners or investors or any of their directors, officers, employees, agents or affiliates acting on your behalf: (i) is related in any way to, the governments of, or any persons within, any country or jurisdiction under a U.S. embargo enforced by the Office of Foreign Assets Control (“{_OFAC.Target}”), or any persons who are named on any list of sanctioned individuals or entities; (ii) is (or has ever been) prohibited from the transaction pursuant to U.S. anti-money laundering, anti-terrorist, economic sanctions and asset control laws; and (iii) is resident in a country or jurisdiction under a U.S. embargo enforced by {_OFAC} (“{_Restricted_Parties.Target}”).
+Grant.Restrict.PurchaserQualification.sec=In order to purchase the {_Project_NFT} if you are an individual, you must be 18 years of age or older if the age of lawfully capacity of forming binding contracts is older in the relevant jurisdiction. If you are an entity, the individual agreeing to the {_Terms} must have the legal authority to bind the entity. If (a) you are an individual, you agree on your own behalf and (b) if you are an entity, you agree that neither the entity nor any of your owners or investors or any of their directors, officers, employees, agents or affiliates acting on your behalf: (i) is related in any way to, the governments of, or any persons within, any country or jurisdiction under a U.S. embargo enforced by the Office of Foreign Assets Control (“{_OFAC.Target}”), or any persons who are named on any list of sanctioned individuals or entities; (ii) is (or has ever been) prohibited from the transaction pursuant to U.S. anti-money laundering, anti-terrorist, economic sanctions and asset control laws; and (iii) is resident in a country or jurisdiction under a U.S. embargo enforced by {_OFAC} (“{_Restricted_Parties.Target}”).
+
+Grant.Restrict.sec={Grant.Restrict.FractionalInterest.sec}<br>{Grant.Restrict.PurchaserQualification.sec}
+
+Grant.Restrict.=[G/Z/Base]
+
+Grant.sec=<ol><li>{Grant.License.Sec}</li><li>{Grant.Derivative.Sec}</li><li>{Grant.Trademark.Sec}</li><li>{Grant.Transfer.Sec}</li><li>{Grant.3PartyContent.Sec}</li><li>{Grant.Restrict.Sec}</li></ol>
+
+Grant.=[G/Z/Base]
 
 Risk.Ti=DISCLAIMERS, LIMITATIONS OF LIABILITY, AND INDEMNIFICATION
 
@@ -155,22 +181,6 @@ Other.LawAndForum.=[G/a16z-contracts/PrOb/licenses/Sec/Misc/LawAndForum/0.md]
 Note=Supporting Definitions:
 
 _=[G/a16z-contracts/PrOb/licenses/Sec/_.md]
-
-Grant.License.=[G/Z/para/s3]
-
-Grant.Derivative.=[G/Z/paras/s2]
-
-Grant.Trademark.=[G/Z/Base]
-
-Grant.Transfer.=[G/Z/para/s4]
-
-Grant.3PartyContent.=[G/Z/Base]
-
-Grant.Restrict.=[G/Z/paras/s2]
-
-Grant.=[G/Z/Base]
-
-Grant.sec=<ol><li>{Grant.License.Sec}</li><li>{Grant.Derivative.Sec}</li><li>{Grant.Trademark.Sec}</li><li>{Grant.Transfer.Sec}</li><li>{Grant.3PartyContent.Sec}</li><li>{Grant.Restrict.Sec}</li></ol>
 
 Risk.Disclaim.=[G/Z/Base]
 

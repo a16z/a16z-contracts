@@ -14,7 +14,7 @@ Grant.CC0License.sec={_Creator} hereby makes all {_NFT_Media} linked to a {_Proj
 
 Grant.Restrict.Ti=Restrictions
 
-Grant.Restrict.sec={ECR.Grant.Restrict.2.sec}
+Grant.Restrict.sec={ECR.Grant.Restrict.PurchaserQualification.sec}
 
 Grant.TemplateProviderDisclaimer.Ti=Template Provider Disclaimers
 
