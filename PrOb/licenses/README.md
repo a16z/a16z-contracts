@@ -26,9 +26,9 @@ CodersNote=The organization of this CC0 is in 2 Sections, while the other licens
 
 LawyersNote=In Section 1.2, the "if the age of lawfully capacity" (a) reads oddly and (b) textually the "if" could be construed to modify all that comes before it (including the 18 year requirement). 
 
-LawyersNote="{_Restricted_Parties}" is defined but not otherwise used. In Section 0 - "we" and "us" are defined, but not used.
+LawyersNote="{_Restricted_Parties}" is defined but not otherwise used. In Section 0 - "we" and "our" are defined, but not used.
 
-LawyersNote=Note that "you" and "your" are used but not defined. InitCap "You" is used a couple of times in the dispute resolution section. 
+LawyersNote=Note that "you" and "your" are used but not defined. InitCap "You", "Your" and "Parties are used (once each) in the Governing Law & Arbitration Section, but are not defined, and are otherwise used in lower case. In this, we have parameterized the InitCap versions but with a red color.  These should either be removed or the terms should be defined and the lower-case usages should be conformed.  
 
 LawyersNote=We have transcluded most of Section 1.3 from the equivalent at ECR 2.5. In 1.3.3.sec (ECR.2.5.3.sec), "creator" is used in uncapitalized form, we have parametrized and capitalized it.
 
