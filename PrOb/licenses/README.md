@@ -2,13 +2,13 @@ This is a restatement of the Licences from https://github.com/a16z/a16z-contract
 
 These are restated in ProseObject format.  They deduplicate very large portions of the text of the various licenses by using one license (ECR.md) as a base and expressing the other licenses as differences on the base.  
 
-The versions are rendered with a tiny bit of perl/PHP done by Primavera De Filippi.  They can be seen here <a href="http://www.commonaccord.org/index.php?action=list&file=G/a16z-contracts/PrOb/licenses/">http://www.commonaccord.org/index.php?action=list&file=G/a16z-contracts/PrOb/licenses/</a>
+Note=The versions are rendered with a tiny bit of perl/PHP done by Primavera De Filippi.  They can be seen here <a href="http://www.commonaccord.org/index.php?action=list&file=G/a16z-contracts/PrOb/licenses/">http://www.commonaccord.org/index.php?action=list&file=G/a16z-contracts/PrOb/licenses/</a>
 
 The Defined Terms are parameterized so that they link to the definitions. This is done with a library at /Sec/_.md.
 
 The cross-references in the text (e.g., Section 1.2) are also parameterized as links to the target. 
 
-Note=Have added our first variation on the text - the Governing Law & Arbitration section now has an "Exploded.Sec" version. That has subheadings for the various subject matters in that long section. All the text is the same from the same key/values.  Both the original "Sec" and the "Exploded.Sec" can be accessed at /Sec/Misc/LawAndForum/0.md - The Exploded.Sec can be seen there or any document that references it via "key=Exploded.Sec" E.g. from ECR.md: http://www.commonaccord.org/index.php?action=doc&file=G/a16z-contracts/PrOb/licenses/ECR.md&key=Other.LawAndForum.Explode.Sec 
+Note=Have added our first variation on the text - the Governing Law & Arbitration section now has an "Exploded.Sec" version. That has subheadings for the various subject matters in that long section. All the text is the same from the same key/values.  Both the original "Sec" and the "Exploded.Sec" can be accessed at /Sec/Misc/LawAndForum/0.md - The Exploded.Sec can be seen there or any document that references it via "key=Exploded.Sec" E.g. from ECR.md: <a href="http://www.commonaccord.org/index.php?action=doc&file=G/a16z-contracts/PrOb/licenses/ECR.md&key=Other.LawAndForum.Explode.Sec">http://www.commonaccord.org/index.php?action=doc&file=G/a16z-contracts/PrOb/licenses/ECR.md&key=Other.LawAndForum.Explode.Sec</a> 
 
 Note=Errata?
 
