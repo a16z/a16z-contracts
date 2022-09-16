@@ -8,6 +8,10 @@ The Defined Terms are parameterized so that they link to the definitions. This i
 
 The cross-references in the text (e.g., Section 1.2) are also parameterized as links to the target. 
 
+Note=Have added our first variation on the text - the Governing Law & Arbitration section now has an "Exploded.Sec" version. That has subheadings for the various subject matters in that long section. All the text is the same from the same key/values.  Both the original "Sec" and the "Exploded.Sec" can be accessed at /Sec/Misc/LawAndForum/0.md - The Exploded.Sec can be seen there or any document that references it via "key=Exploded.Sec" E.g. from ECR.md: http://www.commonaccord.org/index.php?action=doc&file=G/a16z-contracts/PrOb/licenses/ECR.md&key=Other.LawAndForum.Explode.Sec 
+
+Note=Errata?
+
 There are a number of questions or anomalies in the various texts that are noted here. (Collected from the .md files so they are now all in one place.)  These could be re-expressed as GitHub "Issues".
 
 Sec/Misc/LawAndForum/0.md:
@@ -22,7 +26,7 @@ CCO.md:
 
 LawyersNote=The CC0 Agreement is referenced twice, once with a link in Section 1.1 and second time somewhat differently in Section 2.2.  Is that necessary?  
 
-CodersNote=The organization of this CC0 is in 2 Sections, while the other licenses are organized in 3 Sections. The difference is that in this CC0 license, the "Disclaimers" Section (# 2 in the other licenses) is included in the "Grant" Section (# 1) as Section 1.3.  It could be renumbered as Section 2, which would make it parallel the other licenses.  
+CodersNote=The organization of this CC0 is in 2 Sections, while the other licenses are organized in 3 Sections. A difference is that in this CC0 license, the "Disclaimers" Section (# 2 in the other licenses) is included in the "Grant" Section (# 1) as Section 1.3.  It could be renumbered as Section 2, which would make it parallel the other licenses.  
 
 LawyersNote=In Section 1.2, the "if the age of lawfully capacity" (a) reads oddly and (b) textually the "if" could be construed to modify all that comes before it (including the 18 year requirement). 
 
