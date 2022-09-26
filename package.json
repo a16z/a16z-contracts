@@ -17,7 +17,8 @@
     "hardhat-gas-reporter": "^1.0.8"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^4.7.2"
+    "@openzeppelin/contracts": "^4.7.2",
+    "@openzeppelin/contracts-upgradeable": "^4.8.0-rc.1"
   },
   "scripts": {
     "test": "hardhat test"
