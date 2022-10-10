@@ -17,7 +17,7 @@ enum LicenseVersion {
 
 contract CantBeEvil is ERC165, ICantBeEvil {
     using Strings for uint;
-    string internal constant _BASE_LICENSE_URI = "ar://_D9kN1WrNWbCq55BSAGRbTB4bS3v8QAPTYmBThSbX3A/";
+    string internal constant _BASE_LICENSE_URI = "ar://zmc1WTspIhFyVY82bwfAIcIExLFH5lUcHHUN0wXg4W8/";
     LicenseVersion internal licenseVersion;
     constructor(LicenseVersion _licenseVersion) {
         licenseVersion = _licenseVersion;

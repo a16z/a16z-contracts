@@ -1,7 +1,7 @@
 {
   "name": "a16z-contracts",
   "description": "a16z Smart Contract library for Solidity",
-  "version": "0.0.4",
+  "version": "0.0.9",
   "files": [
     "contracts/**/*.sol"
   ],
@@ -15,9 +15,6 @@
     "ethers": "^5.6.8",
     "hardhat": "^2.9.6",
     "hardhat-gas-reporter": "^1.0.8"
-  },
-  "dependencies": {
-    "@openzeppelin/contracts": "^4.7.2"
   },
   "scripts": {
     "test": "hardhat test"
@@ -39,5 +36,8 @@
   "bugs": {
     "url": "https://github.com/a16z/a16z-contracts/issues"
   },
-  "homepage": "https://github.com/a16z/a16z-contracts#readme"
+  "homepage": "https://github.com/a16z/a16z-contracts#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.3"
+  }
 }
