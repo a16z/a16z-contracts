@@ -13,12 +13,12 @@
     "dotenv": "^16.0.1",
     "ethereum-waffle": "^3.4.4",
     "ethers": "^5.6.8",
-    "hardhat": "^2.9.6",
+    "hardhat": "2.9.6",
     "hardhat-gas-reporter": "^1.0.8"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^4.7.2",
-    "@openzeppelin/contracts-upgradeable": "^4.8.0-rc.1"
+    "@openzeppelin-upgradeable/contracts": "npm:@openzeppelin/contracts-upgradeable@^4.8.0-rc.1",
+    "@openzeppelin/contracts": "^4.7.2"
   },
   "scripts": {
     "test": "hardhat test"
