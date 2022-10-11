@@ -8,7 +8,7 @@ import {LicenseVersion, CantBeEvil} from "@a16z/contracts/licenses/CantBeEvil.so
 
 contract MyToken is ERC721, Ownable, CantBeEvil {
 
-    constructor() ERC721("MyToken", "MTK") CantBeEvil(LicenseVersion.CBE_CC0) {}
+    constructor() ERC721("MyToken", "MTK") CantBeEvil(LicenseVersion.PUBLIC) {}
 
     function safeMint(address to, uint256 tokenId) public onlyOwner {
         _safeMint(to, tokenId);
