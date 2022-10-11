@@ -1,4 +1,4 @@
-Ti=“CAN’T BE EVIL”<br>NFT LICENSE CC0 (“CBE-CC0”)
+Ti=“CAN’T BE EVIL”<br>NFT LICENSE CC0 (“CBE-PUBLIC”)
 
 CodersNotes=The CC0 Agreement is referenced with a link in Section 1.1 and somewhat differently in Section 2.2.  Is that necessary?  Lawyers note - In Section 1.2, the "if the age of lawfully capacity" (a) reads oddly and (b) textually the "if" could be construed to modify all that comes before it (including the 18 year requirement). "{_Restricted_Parties}" is defined but not otherwise used. In Section 0 - "we" and "us" are defined, but not used. Note also that "you" and "your" are used but not defined. We have transcluded most of Section 1.3 from the equivalent at ECR 2.5. In 1.3.3.sec (ECR.2.5.3.sec), "creator" is used in uncapitalized form, we have parametrized and capitalized it. In Section 1.3.2 (ECR.2.5.2), "Template Provider Entities" is defined but not otherwise used.
 
@@ -52,7 +52,7 @@ Other.=[G/Z/Base]
 
 _=[G/a16z-contracts/PrOb/licenses/Sec/_.md]
 
-ECR.=[G/a16z-contracts/PrOb/licenses/ECR.md]
+ECR.=[G/a16z-contracts/PrOb/licenses/CBE-Exclusive.md]
 
 sec={Intro.sec}<ol><li>{Grant.Sec}</li><li>{Other.Sec}</li></ol>
 

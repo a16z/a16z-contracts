@@ -1,4 +1,4 @@
-Ti=“CAN’T BE EVIL” NFT LICENSE<br>NON-EXCLUSIVE COMMERCIAL RIGHTS (“CB-NECR”)
+Ti=“CAN’T BE EVIL” NFT LICENSE<br>NON-EXCLUSIVE COMMERCIAL RIGHTS (“CBE-COMMERCIAL”)
 
 Note=Most of the document comes from ECR. These are overrides that make ECR into NECR.
 
@@ -18,4 +18,4 @@ Grant.Derivative.TolerateOther.1.Creator.Derivatives.sec=derivative works of any
 
 Grant.Restrict.sec={Grant.Restrict.FractionalInterest.sec} {Grant.Restrict.PurchaserQualification.sec}
 
-=[G/a16z-contracts/PrOb/licenses/ECR.md]
+=[G/a16z-contracts/PrOb/licenses/CBE-Exclusive.md]

@@ -1,4 +1,4 @@
-Ti=“CAN’T BE EVIL” NFT LICENSE<br>NON-EXCLUSIVE COMMERCIAL RIGHTS & HATE SPEECH TERMINATION (“CBE-NECR-HS”)
+Ti=“CAN’T BE EVIL” NFT LICENSE<br>NON-EXCLUSIVE COMMERCIAL RIGHTS & HATE SPEECH TERMINATION (“CBE-COMMERCIAL-NO-HATE”)
 
 Note=Adds the Hate Speech clause:
 
@@ -6,5 +6,5 @@ Grant.Restrict.sec={Grant.Restriction.HateSpeech.sec} {Grant.Restrict.Fractional
 
 Grant.Restriction.HateSpeech.=[G/a16z-contracts/PrOb/licenses/Sec/Grant/Restriction/HateSpeech/0.md]
 
-=[G/a16z-contracts/PrOb/licenses/NECR.md]
+=[G/a16z-contracts/PrOb/licenses/CBE-Commercial.md]
 
