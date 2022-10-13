@@ -1,6 +1,6 @@
 Ti=“CAN’T BE EVIL” NFT LICENSE<br>NON-EXCLUSIVE COMMERCIAL RIGHTS (“CBE-COMMERCIAL”)
 
-Note=Most of the document comes from ECR. These are overrides that make ECR into NECR.
+Note=Most of the document comes from CBE-Exclusive. These are overrides that make CBE-Exclusive into CBE-Commercial.
 
 Note=makes the license non-exclusive (Grant.License.sec):
 

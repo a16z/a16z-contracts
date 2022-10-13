@@ -12,7 +12,7 @@ Note=Parameterizing, deduplicating and assuring consistency of the phrase that d
 
 Affiliates.cl=past, present and future parents, affiliates or licensees (or any of their partners, members, employees, officers, directors, contractors, agents and equityholders)
 
-Note=The text of ECR:
+Note=The text of CBE-Exclusive:
 
 Intro.sec=By acquiring lawful ownership to a non-fungible token (“{_NFT.Target}”) associated with the NFT project made available under this NFT License (“{_Project_NFT.Target}”) created by the owner or entity that has created this {_Project_NFT} (“{_Creator.Target}” or “we” or “our”), you agree to these NFT License Terms and Conditions (the “{_Terms.Target}”). When you lawfully own a {_Project_NFT}, you own all personal property rights to the NFT underlying the {_Project_NFT} (e.g., the right to freely sell, transfer, or otherwise dispose of that {_Project_NFT}). However, your rights to the associated artwork, images, video, content or other works of authorship linked to your specific {_Project_NFT} which was developed by {_Creator} (“{_NFT_Media.Target}”) are only as outlined below.
 

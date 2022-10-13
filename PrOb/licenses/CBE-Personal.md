@@ -8,7 +8,7 @@ Grant.Derivative.Sec=Reserved
 
 Grant.Trademark.sec=Nothing in these {_Terms} is meant to grant you any rights to any logos, trademarks, service marks, and trade dress associated with {_Creator} or the {_Project_NFT}s (“{_Project_Trademarks.Target}”).   Unless  you  have  our  prior  written  approval,  you  may  not  use  any  {_Project_Trademarks}  for  any  use  that  would  require  a  license  from  us,  including  to  register  any  domain names or social media accounts using any {_Project_Trademarks} or to advertise or promote any other products or services. 
 
-Note=Compared to ECR, eliminates item (ii) and renumbers (iii) as (ii).
+Note=Compared to CBE-Exclusive, eliminates item (ii) and renumbers (iii) as (ii).
 
 Grant.Transfer.2.sec=Further, if you choose to sublicense any of your licensed rights set forth in Section {Grant.License.Xnum} above, you are only permitted to do so if any such sublicensees agree (i) that they are not {_Restricted_Parties} and (ii) that if your licensed rights in Section {Grant.License.Xnum} are transferred (such as because you sell your {_Project_NFT}), then any such sublicenses you have granted in such licensed rights will automatically terminate.
 
