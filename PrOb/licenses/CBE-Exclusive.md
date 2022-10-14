@@ -152,35 +152,35 @@ Risk.Indemnify.2.sec=For these limited purposes, the {_Creator_Entities}  (other
 
 Other.Ti=ADDITIONAL PROVISIONS
 
-Other.AdditionalFeatures.Ti=Additional Features
+AdditionalFeatures.Ti=Additional Features
 
-Other.AdditionalFeatures.sec={_Creator} may choose to make additional features, access, content, items or other benefits available to owners of {_Project_NFT}s (“{_Additional_Features.Target}”). {_Creator} has no duty or obligation to provide you with any {_Additional_Features}, and you should not expect any {_Additional_Features} when acquiring a {_Project_NFT}. {_Additional_Features} may be subject to additional terms and conditions, which may be presented to you at the time they are made available.
+AdditionalFeatures.sec={_Creator} may choose to make additional features, access, content, items or other benefits available to owners of {_Project_NFT}s (“{_Additional_Features.Target}”). {_Creator} has no duty or obligation to provide you with any {_Additional_Features}, and you should not expect any {_Additional_Features} when acquiring a {_Project_NFT}. {_Additional_Features} may be subject to additional terms and conditions, which may be presented to you at the time they are made available.
 
-Other.TerminateLicense.Ti=Termination of License
+TerminateLicense.Ti=Termination of License
 
-Other.TerminateLicense.1.sec=If you materially breach any of the provisions of these {_Terms}, {_Creator} may terminate all of the licenses granted to you under these {_Terms}.
+TerminateLicense.1.sec=If you materially breach any of the provisions of these {_Terms}, {_Creator} may terminate all of the licenses granted to you under these {_Terms}.
 
-Other.TerminateLicense.2.sec={_Creator} will use commercially reasonable efforts to provide you with notice of such termination, though for the avoidance of doubt your licenses shall terminate regardless of whether such notice is actually received.
+TerminateLicense.2.sec={_Creator} will use commercially reasonable efforts to provide you with notice of such termination, though for the avoidance of doubt your licenses shall terminate regardless of whether such notice is actually received.
 
-Other.TerminateLicense.3.sec=Upon the termination of your licenses, you shall cease all use of the rights granted in Article {Grant.Xnum}, including, without limitation, ceasing all marketing, distribution, or sale of goods, services and media that feature the {_NFT_Media} and shall cease all further use of the {_NFT_Media} (including any {_NFT_Media_Derivatives}), and all sublicenses you have granted in the {_NFT_Media} shall automatically terminate.
+TerminateLicense.3.sec=Upon the termination of your licenses, you shall cease all use of the rights granted in Article {Grant.Xnum}, including, without limitation, ceasing all marketing, distribution, or sale of goods, services and media that feature the {_NFT_Media} and shall cease all further use of the {_NFT_Media} (including any {_NFT_Media_Derivatives}), and all sublicenses you have granted in the {_NFT_Media} shall automatically terminate.
 
-Other.TerminateLicense.4.sec=The following sections shall survive the termination of these {_Terms} and shall continue in full force and effect subsequent to and notwithstanding any termination of these {_Terms} by {_Creator} or you: Sections {Grant.Trademark.Xnum}, {Grant.Transfer.Xnum}, {Grant.Restrict.Xnum}, {Risk.Disclaim.Xnum}, {Risk.LimitLiability.Xnum}, {Risk.Assumption.Xnum}, {Risk.BasisOfBargain.Xnum}, {Risk.TemplateProviderDisclaimer.Xnum}, {Risk.Indemnify.Xnum}, {Other.Misc.Xnum} and {Other.LawAndForum.Xnum}.
+TerminateLicense.4.sec=The following sections shall survive the termination of these {_Terms} and shall continue in full force and effect subsequent to and notwithstanding any termination of these {_Terms} by {_Creator} or you: Sections {Grant.Trademark.Xnum}, {Grant.Transfer.Xnum}, {Grant.Restrict.Xnum}, {Risk.Disclaim.Xnum}, {Risk.LimitLiability.Xnum}, {Risk.Assumption.Xnum}, {Risk.BasisOfBargain.Xnum}, {Risk.TemplateProviderDisclaimer.Xnum}, {Risk.Indemnify.Xnum}, {Other.Misc.Xnum} and {Other.LawAndForum.Xnum}.
 
-Other.TerminateLicense.5.sec=Termination will not limit any of {_Creator}’s other rights or remedies at law or in equity.
+TerminateLicense.5.sec=Termination will not limit any of {_Creator}’s other rights or remedies at law or in equity.
 
-Other.Misc.Ti=Miscellaneous
+Misc.Ti=Miscellaneous
 
-Other.Misc.1.sec=These {_Terms} constitutes the entire and exclusive understanding and agreement between {_Creator} and you regarding the {_Project_NFT} and {_NFT_Media} and supersedes and replaces any and all prior oral or written understandings or agreements between {_Creator} and you regarding the {_Project_NFT} and {_NFT_Media}.
+Misc.1.sec=These {_Terms} constitutes the entire and exclusive understanding and agreement between {_Creator} and you regarding the {_Project_NFT} and {_NFT_Media} and supersedes and replaces any and all prior oral or written understandings or agreements between {_Creator} and you regarding the {_Project_NFT} and {_NFT_Media}.
 
-Other.Misc.2.sec=If any provision of these {_Terms} shall be unlawful, void or for any reason unenforceable, then that provision shall be deemed severable from these {_Terms} and shall not affect the validity and enforceability of any remaining provisions.
+Misc.2.sec=If any provision of these {_Terms} shall be unlawful, void or for any reason unenforceable, then that provision shall be deemed severable from these {_Terms} and shall not affect the validity and enforceability of any remaining provisions.
 
-Other.Misc.3.sec=These {_Terms} and the licenses granted hereunder may be freely assigned by {_Creator}.
+Misc.3.sec=These {_Terms} and the licenses granted hereunder may be freely assigned by {_Creator}.
 
-Other.Misc.4.sec=Any purported assignment in violation of these {_Terms} will be null and void.
+Misc.4.sec=Any purported assignment in violation of these {_Terms} will be null and void.
 
-Other.Misc.5.sec=No waiver by either party of any breach or default hereunder shall be deemed to be a waiver of any preceding or subsequent breach or default.
+Misc.5.sec=No waiver by either party of any breach or default hereunder shall be deemed to be a waiver of any preceding or subsequent breach or default.
 
-Other.LawAndForum.=[G/a16z-contracts/PrOb/licenses/Sec/Misc/LawAndForum/0.md]
+LawAndForum.=[G/a16z-contracts/PrOb/licenses/Sec/Misc/LawAndForum/0.md]
 
 Note=Supporting Definitions:
 
@@ -202,15 +202,15 @@ Risk.=[G/Z/Base]
 
 Risk.sec=<ol><li>{Risk.Disclaim.Sec}</li><li>{Risk.LimitLiability.Sec}</li><li>{Risk.Assumption.Sec}</li><li>{Risk.BasisOfBargain.Sec}</li><li>{Risk.TemplateProviderDisclaimer.Sec}</li><li>{Risk.Indemnify.Sec}</li></ol>
 
-Other.AdditionalFeatures.=[G/Z/Base]
+AdditionalFeatures.=[G/Z/Base]
 
-Other.TerminateLicense.=[G/Z/para/s5]
+TerminateLicense.=[G/Z/para/s5]
 
-Other.Misc.=[G/Z/para/s5]
+Misc.=[G/Z/para/s5]
 
 Other.=[G/Z/Base]
 
-Other.sec=<ol><li>{Other.AdditionalFeatures.Sec}</li><li>{Other.TerminateLicense.Sec}</li><li>{Other.Misc.Sec}</li><li>{Other.LawAndForum.Sec}</li>
+Other.sec=<ol><li>{AdditionalFeatures.Sec}</li><li>{TerminateLicense.Sec}</li><li>{Misc.Sec}</li><li>{LawAndForum.Sec}</li>
 
 sec={Intro.sec}<ol><li>{Grant.Sec}</li><li>{Risk.Sec}</li><li>{Other.Sec}</li></ol>
 
@@ -246,8 +246,8 @@ Risk.Indemnify.Xnum={Risk.Xnum}.<a class='xref' href='#Risk.Indemnify.Sec'>6</a>
 
 Other.Xnum=<a class='xref' href='#Other.Sec'>3</a>
 
-Other.TerminateLicense.Xnum={Other.Xnum}.<a class='xref' href='#Other.TerminateLicense.Sec'>2</a>
+Other.TerminateLicense.Xnum={Other.Xnum}.<a class='xref' href='#TerminateLicense.Sec'>2</a>
 
-Other.Misc.Xnum={Other.Xnum}.<a class='xref' href='#Other.Misc.Sec'>3</a>
+Other.Misc.Xnum={Other.Xnum}.<a class='xref' href='#Misc.Sec'>3</a>
 
-Other.LawAndForum.Xnum=<a class='xref' href='#Other.LawAndForum.Sec'>3.4</a>
+Other.LawAndForum.Xnum=<a class='xref' href='#LawAndForum.Sec'>3.4</a>
