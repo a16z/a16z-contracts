@@ -9,8 +9,8 @@ import "./License.sol";
 
 contract CantBeEvil is ERC165, ICantBeEvil {
   using Strings for uint256;
-  string internal constant _BASE_LICENSE_URI = "ar://_D9kN1WrNWbCq55BSAGRbTB4bS3v8QAPTYmBThSbX3A/";
-  License.LicenseVersion public licenseVersion; // return string
+  string internal constant _BASE_LICENSE_URI = "ar://zmc1WTspIhFyVY82bwfAIcIExLFH5lUcHHUN0wXg4W8/";
+  License.LicenseVersion internal licenseVersion;
 
   constructor(License.LicenseVersion _licenseVersion) {
     licenseVersion = _licenseVersion;
@@ -34,17 +34,13 @@ contract CantBeEvil is ERC165, ICantBeEvil {
     return interfaceId == type(ICantBeEvil).interfaceId || super.supportsInterface(interfaceId);
   }
 
-  function _getLicenseVersionKeyByValue(License.LicenseVersion _licenseVersion)
-    internal
-    pure
-    returns (string memory)
-  {
+  function _getLicenseVersionKeyByValue(License.LicenseVersion _licenseVersion) internal pure returns (string memory) {
     require(uint8(_licenseVersion) <= 6);
-    if (License.LicenseVersion.CBE_CC0 == _licenseVersion) return "CBE_CC0";
-    if (License.LicenseVersion.CBE_ECR == _licenseVersion) return "CBE_ECR";
-    if (License.LicenseVersion.CBE_NECR == _licenseVersion) return "CBE_NECR";
-    if (License.LicenseVersion.CBE_NECR_HS == _licenseVersion) return "CBE_NECR_HS";
-    if (License.LicenseVersion.CBE_PR == _licenseVersion) return "CBE_PR";
-    else return "CBE_PR_HS";
+    if (License.LicenseVersion.PUBLIC == _licenseVersion) return "PUBLIC";
+    if (License.LicenseVersion.EXCLUSIVE == _licenseVersion) return "EXCLUSIVE";
+    if (License.LicenseVersion.COMMERCIAL == _licenseVersion) return "COMMERCIAL";
+    if (License.LicenseVersion.COMMERCIAL_NO_HATE == _licenseVersion) return "COMMERCIAL_NO_HATE";
+    if (License.LicenseVersion.PERSONAL == _licenseVersion) return "PERSONAL";
+    else return "PERSONAL_NO_HATE";
   }
 }
