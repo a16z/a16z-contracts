@@ -2,13 +2,15 @@ This is a restatement of the Licences from https://github.com/a16z/a16z-contract
 
 These are restated in ProseObject format.  They deduplicate very large portions of the text of the various licenses by using one license (CBE-Exclusive.md) as a base and expressing the other licenses as differences on the base.  
 
-Note=The versions are rendered with a tiny bit of perl/PHP done by Primavera De Filippi.  They can be seen here <a href="http://www.commonaccord.org/index.php?action=list&file=G/a16z-contracts/PrOb/licenses/">http://www.commonaccord.org/index.php?action=list&file=G/a16z-contracts/PrOb/licenses/</a>
+Note=The versions are rendered with a tiny bit of perl/PHP done CC0 by Primavera De Filippi (https://en.wikipedia.org/wiki/Primavera_De_Filippi).  They can be seen here <a href="http://www.commonaccord.org/index.php?action=list&file=G/a16z-contracts/licenses/pr0b/">http://www.commonaccord.org/index.php?action=list&file=G/a16z-contracts/licenses/pr0b/</a>
 
 The Defined Terms are parameterized so that they link to the definitions. This is done with a library at /Sec/_.md.
 
 The cross-references in the text (e.g., Section 1.2) are also parameterized as links to the target. 
 
-Note=Have added our first variation on the text - the Governing Law & Arbitration section now has an "Exploded.Sec" version. That has subheadings for the various subject matters in that long section. All the text is the same from the same key/values.  Both the original "Sec" and the "Exploded.Sec" can be accessed at /Sec/Misc/LawAndForum/0.md - The Exploded.Sec can be seen there or any document that references it via "key=Exploded.Sec" E.g. from CBE-Exclusive.md: <a href="http://www.commonaccord.org/index.php?action=doc&file=G/a16z-contracts/PrOb/licenses/CBE-Exclusive.md&key=Other.LawAndForum.Explode.Sec">http://www.commonaccord.org/index.php?action=doc&file=G/a16z-contracts/PrOb/licenses/CBE-Exclusive.md&key=Other.LawAndForum.Explode.Sec</a> 
+Note=Have added our first variation on the text - the Governing Law & Arbitration section now has an "Exploded.Sec" version. That has subheadings for the various subject matters in that long section. All the text is the same from the same key/values.  Both the original "Sec" and the "Exploded.Sec" can be accessed at /Sec/Misc/LawAndForum/0.md - The Exploded.Sec can be seen there or any document that references it via "key=Exploded.Sec" E.g. from CBE-Exclusive.md: <a href="http://www.commonaccord.org/index.php?action=doc&file=G/a16z-contracts/licenses/pr0b/CBE-Exclusive.md&key=Other.LawAndForum.Explode.Sec">http://www.commonaccord.org/index.php?action=doc&file=G/a16z-contracts/licenses/pr0b/CBE-Exclusive.md&key=Other.LawAndForum.Explode.Sec</a> 
+
+Note=The ".md" file extension is used for ProseObjects because it makes them present perfectly on GitHub.  This is slightly abusive, since ProseObjects are a source format and HTML, not markdown.)
 
 Note=Errata?
 
@@ -16,9 +18,9 @@ There are a number of questions or anomalies in the various texts that are noted
 
 Sec/Misc/LawAndForum/0.md:
 
-CodersNote=Made this large "Governing Law & Arbitration" Section into a separate object (file) which is referenced in the forms. Could have called it Sec/Misc/GoverningLawAndArbitration/ but expressed it a bit more generally.  Also did this for HateSpeech.  Eventually, would likely do it for all Sections, creating a library from which the forms are formed, and providing subject-specific targets for improvement, commentary, recomposition and the like.  For fun: you can drill down in a document and render parts of it <a href="http://www.commonaccord.org/index.php?action=doc&file=G/a16z-contracts/PrOb/licenses/CBE-Exclusive.md&key=Other.LawAndForum.Sec">http://www.commonaccord.org/index.php?action=doc&file=G/a16z-contracts/PrOb/licenses/CBE-Exclusive.md&key=Other.LawAndForum.Sec</a>
+CodersNote=Made this large "Governing Law & Arbitration" Section into a separate object (file) which is referenced in the forms. Could have called it Sec/Misc/GoverningLawAndArbitration/ but expressed it a bit more generally.  Also did this for HateSpeech.  Eventually, would likely do it for all Sections, creating a library from which the forms are formed, and providing subject-specific targets for improvement, commentary, recomposition and the like.  For fun: you can drill down in a document and render parts of it <a href="http://www.commonaccord.org/index.php?action=doc&file=G/a16z-contracts/licenses/pr0b/CBE-Exclusive.md&key=Other.LawAndForum.Sec">http://www.commonaccord.org/index.php?action=doc&file=G/a16z-contracts/licenses/pr0b/CBE-Exclusive.md&key=LawAndForum.Sec</a>
 
-CodersNote=Parameterized the Arbitration Seat and the Choice of Law as {ArbitrationSeat.cl} and {Law.State.the} (!).  The parameters are fulfilled (dereferenced) in CBE-Exclusive.md with the original choices (NY or plaintiff county, and NY law).  These choices are defaults and can be overridden in instances.
+CodersNote=Parameterized the Arbitration Seat and the Choice of Law as {ArbitrationSeat.cl} and {Law.State.the} (!).  The parameters are fulfilled (dereferenced) in CBE-Exclusive.md using the original choices (NY or plaintiff county, and NY law).  These choices are defaults and can be overridden in instances.
 
 LawyersNote=What happens to choice of seat for the arbitration if the plaintiff is outside the US? 
 

@@ -24,13 +24,11 @@ Grant.TemplateProviderDisclaimer.sec={CBE-Exclusive.Risk.TemplateProviderDisclai
 
 Other.Ti=ADDITIONAL PROVISIONS 
 
-Other.AdditionalFeatures.Ti=Additional Features
+AdditionalFeatures.Sec={CBE-Exclusive.AdditionalFeatures.Sec}
 
-Other.AdditionalFeatures.sec={CBE-Exclusive.Other.AdditionalFeatures.sec}
+TerminateLicense.Ti=Miscellaneous
 
-Other.TerminateLicense.Ti=Miscellaneous
-
-Other.TerminateLicense.sec=These {_Terms} and the Creative Commons CC0 1.0 Universal agreement constitutes the entire and exclusive understanding and agreement between the {_Creator} and you regarding the {_Project_NFT} and {_NFT_Media} and supersedes and replaces any and all prior oral or written understandings or agreements between {_Creator} and you regarding the {_Project_NFT} and {_NFT_Media}. If any provision of these {_Terms} shall be unlawful, void or for any reason unenforceable, then that provision shall be deemed severable from these {_Terms} and shall not affect the validity and enforceability of any remaining provisions. These {_Terms} may be freely assigned by {_Creator}. Any purported assignment in violation of these {_Terms} will be null and void. No waiver by either party of any breach or default hereunder shall be deemed to be a waiver of any preceding or subsequent breach or default. These {_Terms} and any action related thereto will be governed by the laws of the State of New York, without regard to its conflict of laws provisions. 
+TerminateLicense.sec=These {_Terms} and the Creative Commons CC0 1.0 Universal agreement constitutes the entire and exclusive understanding and agreement between the {_Creator} and you regarding the {_Project_NFT} and {_NFT_Media} and supersedes and replaces any and all prior oral or written understandings or agreements between {_Creator} and you regarding the {_Project_NFT} and {_NFT_Media}. If any provision of these {_Terms} shall be unlawful, void or for any reason unenforceable, then that provision shall be deemed severable from these {_Terms} and shall not affect the validity and enforceability of any remaining provisions. These {_Terms} may be freely assigned by {_Creator}. Any purported assignment in violation of these {_Terms} will be null and void. No waiver by either party of any breach or default hereunder shall be deemed to be a waiver of any preceding or subsequent breach or default. These {_Terms} and any action related thereto will be governed by the laws of the State of New York, without regard to its conflict of laws provisions. 
 
 Grant.sec=<ol><li>{Grant.CC0License.Sec}</li><li>{Grant.Restrict.Sec}</li><li>{Grant.TemplateProviderDisclaimer.Sec}</li></ol>
 
@@ -42,17 +40,15 @@ Grant.TemplateProviderDisclaimer.=[G/Z/Base]
 
 Grant.=[G/Z/Base]
 
-Other.sec=<ol><li>{Other.AdditionalFeatures.Sec}</li><li>{Other.TerminateLicense.Sec}</li></ol>
+Other.sec=<ol><li>{AdditionalFeatures.Sec}</li><li>{TerminateLicense.Sec}</li></ol>
 
-Other.AdditionalFeatures.=[G/Z/Base]
-
-Other.TerminateLicense.=[G/Z/Base]
+TerminateLicense.=[G/Z/Base]
 
 Other.=[G/Z/Base]
 
-_=[G/a16z-contracts/PrOb/licenses/Sec/_.md]
+_=[G/a16z-contracts/licenses/pr0b/Sec/_.md]
 
-CBE-Exclusive.=[G/a16z-contracts/PrOb/licenses/CBE-Exclusive.md]
+CBE-Exclusive.=[G/a16z-contracts/licenses/pr0b/CBE-Exclusive.md]
 
 sec={Intro.sec}<ol><li>{Grant.Sec}</li><li>{Other.Sec}</li></ol>
 

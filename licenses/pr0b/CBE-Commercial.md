@@ -18,4 +18,4 @@ Grant.Derivative.TolerateOther.1.Creator.Derivatives.sec=derivative works of any
 
 Grant.Restrict.sec={Grant.Restrict.FractionalInterest.sec} {Grant.Restrict.PurchaserQualification.sec}
 
-=[G/a16z-contracts/PrOb/licenses/CBE-Exclusive.md]
+=[G/a16z-contracts/licenses/pr0b/CBE-Exclusive.md]

@@ -20,4 +20,4 @@ Note=Removes references to marketing and to NFT Media Derivatives:
 
 Other.TerminateLicense.3.sec=Upon the termination of your licenses, you shall cease all use of the rights granted in Article {Grant.Xnum} and shall cease all further use of the {_NFT_Media}, and all sublicenses you have granted in the {_NFT_Media} shall automatically terminate. 
 
-=[G/a16z-contracts/PrOb/licenses/CBE-Exclusive.md]
+=[G/a16z-contracts/licenses/pr0b/CBE-Exclusive.md]

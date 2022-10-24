@@ -180,11 +180,11 @@ Misc.4.sec=Any purported assignment in violation of these {_Terms} will be null 
 
 Misc.5.sec=No waiver by either party of any breach or default hereunder shall be deemed to be a waiver of any preceding or subsequent breach or default.
 
-LawAndForum.=[G/a16z-contracts/PrOb/licenses/Sec/Misc/LawAndForum/0.md]
+LawAndForum.=[G/a16z-contracts/licenses/pr0b/Sec/Misc/LawAndForum/0.md]
 
 Note=Supporting Definitions:
 
-_=[G/a16z-contracts/PrOb/licenses/Sec/_.md]
+_=[G/a16z-contracts/licenses/pr0b/Sec/_.md]
 
 Risk.Disclaim.=[G/Z/Base]
 
