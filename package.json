@@ -39,5 +39,8 @@
   "homepage": "https://github.com/a16z/a16z-contracts#readme",
   "dependencies": {
     "@openzeppelin/contracts": "^4.7.3"
+  },
+  "overrides": {
+    "pbkdf2": ">=3.1.3"
   }
 }
